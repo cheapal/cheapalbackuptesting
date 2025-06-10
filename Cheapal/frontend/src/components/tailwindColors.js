@@ -1,0 +1,18 @@
+export const tailwindColors = {
+  'blue-600': '#2563eb',
+  'purple-600': '#9333ea',
+  'purple-700': '#7e22ce',
+  'green-600': '#16a34a',
+  'teal-800': '#115e59',
+  'gray-600': '#4b5563',
+  'indigo-700': '#4338ca',
+  'pink-600': '#db2777',
+  'cyan-600': '#0891b2',
+  'red-600': '#dc2626',
+  'yellow-600': '#ca8a04',
+  'emerald-700': '#047857',
+  'slate-700': '#334155',
+  'zinc-800': '#27272a',
+  'rose-700': '#be123c',
+  'sky-700': '#0369a1',
+};

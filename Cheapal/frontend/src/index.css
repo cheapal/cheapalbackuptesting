@@ -1,0 +1,49 @@
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Layer - Tailwind */
+@layer base {
+  :root {
+    --color-primary-blue: rgb(38, 96, 164);
+    --color-primary-light: rgb(237, 247, 246);
+    --color-primary-orange: rgb(241, 153, 83);
+    --color-primary-brown: rgb(196, 115, 53);
+    --color-primary-dark: rgb(86, 53, 30);
+    --color-scheme-bg: #000000;
+    --color-scheme-text: #ffffff;
+    --color-scheme-accent: #ccff33;
+    --color-scheme-secondary: #282c34;
+  }
+
+  body {
+    @apply font-sans antialiased;
+    background: linear-gradient(135deg, #0a0e17 0%, #151f30 50%, #1a2e4d 100%);
+    color: var(--color-scheme-text);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    line-height: 1.6;
+  }
+}
+
+/* Glassmorphic styles */
+.glassmorphic {
+  background: rgba(55, 65, 81, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.glassmorphic-nav {
+  background: rgba(55, 65, 81, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glassmorphic-bg {
+  background: rgba(55, 65, 81, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
